@@ -1,11 +1,10 @@
-/* eslint-disable react/jsx-no-undef */
 import React from 'react';
 import About from "./Componant/form/About";
 import Home from "./Componant/form/Home";
 import Contact from './Componant/form/Contact';
 import NavBar from "./Componant/navigation/NavBar";
+import Footer from "./Componant/navigation/Footer";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-// import Footer from './Componant/navigation/Footer';
 
 
 function App() {
@@ -13,13 +12,13 @@ function App() {
 
     <div>
       <BrowserRouter>
-        <NavBar />
+        <NavBar/>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/" element={<Home/>} />
+          <Route path="/contact" element={<Contact/>} />
+          <Route path="/about" element={<About/>} />
         </Routes>
-        
+        <Footer/>
       </BrowserRouter>
     </div>
 
