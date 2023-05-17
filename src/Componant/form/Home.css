@@ -1,6 +1,11 @@
+p{
+    font-size: 16px;
+    color: #262626;
+}
 .section{
     padding-top: 40px;
     padding-bottom: 40px;
+    background-color: #e2e1e1;
 }
 
 .main-heading{
@@ -13,5 +18,12 @@
     width: 4rem;
     background-color: #f76c2f;
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Service-Underline{
+    height: 2px;
+    width: 6rem;
+    background-color: #5f5f5f;
+    margin-top: 6px;
     margin-bottom: 10px;
 }

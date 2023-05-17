@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Slider from "../navigation/Slider";
 import VMV from "../Page/VMV";
+import Service from "../Page/Service";
 export default function Home() {
   return (
     <div>
@@ -33,6 +34,8 @@ export default function Home() {
 
       <VMV/>
 
+      <Service/>
+      
     </div>
   );
 }
